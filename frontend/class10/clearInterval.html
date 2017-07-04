@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>clear interval</title>
+</head>
+<body>
+<input type="button" value="stop" onclick="stop()">
+<script type="text/javascript">
+		
+	function hello(){
+		console.log('hello');
+	}
+
+	var stopId = setInterval(hello, 1000);
+
+	function stop(){
+		clearInterval(stopId);
+	}
+
+</script>
+</body>
+</html>

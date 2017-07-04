@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>abcd</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function a(){
+			console.log('a');
+		}
+		function b(){
+			
+			setTimeout(function (){console.log('b'); c();}, 3000);
+			
+		}
+
+		function c(){
+			console.log('c');
+		}
+
+		function d(){
+			a();
+			b();
+		}
+
+		d();
+
+		/*
+		function b(d) {
+			a();
+
+			c();
+
+			setTimeout(function(){
+			d();
+		}, 9000);
+
+	console.log("b");
+}
+		*/
+	</script>
+</body>
+</html>

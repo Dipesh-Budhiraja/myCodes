@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MediaQuery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		p {
+			font-size: 12px;
+		}
+
+		/*write default code above @MEDIA QUERY*/
+		@media screen and (max-width: 600px) and (min-width: 300px) {
+
+			p {
+				color: red;
+				font-size: 20px;
+			}
+		}
+
+		@media print and (max-width: 600px) {
+			/*this is for ctrl+p for printing layout*/
+		}
+	</style>
+</head>
+<body>
+	
+	<p>I will change with media query</p>
+</body>
+</html>

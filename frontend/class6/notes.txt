@@ -1,0 +1,13 @@
+*chrome v8 engine read
+
+terminal-
+node
+2 +3
+
+BOM browser object model
+
+js is dynamically typed lang. it decides the type of variable at runtime
+js is interpreted
+js mein source code se machine code nhi banega vo ek aur source code mein convert hoga
+
+task7: calculator

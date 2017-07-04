@@ -1,0 +1,21 @@
+set
+* {
+	box-sizing: border-box;
+}
+
+homework from ppt:
+layouts
+portfolio revamp
+animation
+relative animations
+
+vh-viewport height
+height: 100vh of viewport
+height: 100wh is 100% of viewport width
+
+always keep your style sheet after bootstrap to prevent ambiguous nature
+
+to everwrite property of bootstrap use !important after the property
+eg- {
+	text-align: left !important;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>fade</title>
+        <style media="screen">
+            #box {
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                position: relative;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="box">
+
+        </div>
+        <button type="button" id="button">fade</button>
+        <script type="text/javascript" src="jquery.js">
+
+        </script>
+        <script type="text/javascript">
+        var button = $('#button');
+
+            button.click(function(){
+                $('#box').animate({left: '250px', position: 'relative'});
+                // $('#box').toggle(1000);
+                // $('#box').animate({left: '250px'});
+            });//$('output').addClass('animate') also remove Animate and add notAnimate for toggle action
+        </script>
+    </body>
+</html>

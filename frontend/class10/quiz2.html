@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz 2</title>
+</head>
+<body>
+<script type="text/javascript">
+	function hello () {
+		function child1(){
+			console.log(this.obj);
+		}
+
+		var x = {
+			"child1": child1,
+			"obj": "foo",
+			"property": "bar"
+		};
+/*
+		// child1.call(x);
+		x.child1();*/
+
+		// var .x = new child1();
+		child1.prototype = x;
+		var person = new child1();
+		console.log(person);
+		//call child1 such that foo is printed
+	}
+
+	hello();
+/*
+	var y = {};
+	function hello(){
+		var x=  12;//comes by closure property
+		function set(){
+			console.log(x);
+			console.log(z);
+		}
+		var z = 1;//this also follow closure property as it is in closure of fn hello
+		y.a = set;
+	}
+	hello();
+	y.a();
+*/
+</script>
+</body>
+</html>

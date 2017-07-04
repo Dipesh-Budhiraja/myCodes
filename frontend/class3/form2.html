@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form2</title>
+</head>
+<body>
+	
+		<center>
+			Coding Blocks Form
+		</center>
+
+		<center>
+			<form action="#" method ="post"> 
+			<!-- with post file:///C:/search -->
+			<!-- file:///C:/search?main=hello&secondary=world WITH /SEARCH-->
+			<!-- WITH # file:///C:/Users/himanshu/Desktop/elixir/class%203/form2.html?main=sf&secondary=vsv#  #APPENDED  AT THE END--> 
+
+			<!-- file:///C:/Users/himanshu/Desktop/elixir/class%203/search?main=hello&secondary=world  WITH SEARCH-->
+
+			<!-- file:///C:/Users/himanshu/Desktop/elixir/search?main=sfsd&secondary=sfas -->
+			<!-- file:///C:/Users/himanshu/Desktop/search?main=SDH&secondary=SCN WITH ../../search-->
+
+			<p>Courses</p>
+			<input type="text" name="main">
+			<input type="text" name="secondary">
+			<input type="submit">
+			<input type="password" name="password">
+			<input type="reset" name="">
+			<input type="button" value="main">
+			<a href="https://google.com"><button>Google Url</button></a><!-- wrong approach-->
+			<input type="button" onclick="location.href='https://google.com';" value="Google url" >
+
+			<button onclick="location.href='https://google.com';">Google</button>
+			</form><!-- get request -->
+
+			<button onclick="location.href='https://google.com';">Google</button> <!-- it will not work inside form tag beacuse it will redirec to /search/https://google.com-->
+		</center>
+	
+</body>
+</html>

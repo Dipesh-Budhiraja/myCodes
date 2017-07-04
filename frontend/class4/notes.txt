@@ -1,0 +1,67 @@
+positions-absolute=it will find the nearest relative parent and take it as origin, if nothing is found then browser top left is considered
+
+absolute slows down the loading process. so keep them very less. these will be individually rendered
+
+z-index is always used with absolute
+
+position absolute creates a new layer.
+
+footer is at lower or same priority of content
+
+viewport is area of webpage on screen
+
+we cannot give any property to static
+
+margin: 10px 20px 30px 10px(top, right, bottom, left)
+margin: 10px 20px(top-bottom, right-left)
+
+margin in % is dependent on parent's width
+eg- if parent is 2000px then 20% then 400px is margin
+
+display: inline, block, inline-block, none;
+width and height does not exist in inline elements
+span will take the size of its content
+div will take the whole width of its container
+
+width will not affect inline elements
+
+inline-block was introduced to add width to inline elements
+
+good developers on twitter
+
+inline element cant be centered so make images block elements	
+
+
+<span></span> /*then inline-block**/ <div>
+this will also give nav type layout but we have to give the margin
+clear: both
+
+pagination...
+
+check overflow properties
+
+task4 hovering menu with main heading, item, subitem
+
+{
+	height: 10px
+	max-height: 20px
+	overflow: hidden;
+	check it 
+}
+
+vendor prefixes
+-o-transform:-opera
+-moz-transform-mozilla
+-ms-transform-ie9
+-webkit-transform-safari
+
+translate will cause loss of parent property
+
+% always follow the width of parent element
+
+
+task5-animation
+
+word-wrap
+
+Aayush@codingblocks.com

@@ -1,0 +1,319 @@
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$  git config --global user.name "Dipesh-Budhiraja"
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$ git config --global user.name "Dipesh-Budhiraja"
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$ git config --global user.email "25dipesh98@gmail.com"
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$ git config --global user.email 25dipesh98@gmail.com
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$ ls -1
+'3D Objects'/
+'a[i]'
+ansel/
+AppData/
+'Application Data'@
+'ch1)'
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+gate.session
+gate.xml
+gcc/
+'Google Drive'/
+Heaven/
+iCloudDrive/
+InstallAnywhere/
+IntelGraphicsProfiles/
+item
+'item){end'
+Links/
+'Local Settings'@
+m
+Music/
+'My Documents'@
+n
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{7c46313e-4477-11e7-a325-884523dbce51}.TxR.0.regtrans-ms
+NTUSER.DAT{7c46313e-4477-11e7-a325-884523dbce51}.TxR.1.regtrans-ms
+NTUSER.DAT{7c46313e-4477-11e7-a325-884523dbce51}.TxR.2.regtrans-ms
+NTUSER.DAT{7c46313e-4477-11e7-a325-884523dbce51}.TxR.blf
+NTUSER.DAT{7c46313f-4477-11e7-a325-884523dbce51}.TM.blf
+NTUSER.DAT{7c46313f-4477-11e7-a325-884523dbce51}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{7c46313f-4477-11e7-a325-884523dbce51}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive/
+Pictures/
+PrintHood@
+PycharmProjects/
+Recent@
+Roaming/
+'Saved Games'/
+ScStore/
+Searches/
+SendTo@
+'Start Menu'@
+Templates@
+Unigine_Heaven_Benchmark_4.0_20160717_2359.html
+Unigine_Heaven_Benchmark_4.0_20160718_0000.html
+Unigine_Heaven_Benchmark_4.0_20170209_0104.html
+Unigine_Heaven_Benchmark_4.0_20170209_0158.html
+Unigine_Heaven_Benchmark_4.0_20170309_2144.html
+Videos/
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$ ls -l
+total 14309
+drwxr-xr-x 1 25dip 197609       0 Dec 24  2016 '3D Objects'/
+-rw-r--r-- 1 25dip 197609       0 Jan 29 00:50 'a[i]'
+drwxr-xr-x 1 25dip 197609       0 Feb 17 13:31 ansel/
+drwxr-xr-x 1 25dip 197609       0 May 29 19:40 AppData/
+lrwxrwxrwx 1 25dip 197609      30 May 29 19:38 'Application Data' -> /c/Users/25dip/AppData/Roaming/
+-rw-r--r-- 1 25dip 197609       0 Jan 13 13:50 'ch1)'
+drwxr-xr-x 1 25dip 197609       0 Jun 14 10:08 Contacts/
+lrwxrwxrwx 1 25dip 197609      58 May 29 19:38 Cookies -> /c/Users/25dip/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 25dip 197609       0 Jun 20 23:55 Desktop/
+drwxr-xr-x 1 25dip 197609       0 Jun  8 23:53 Documents/
+drwxr-xr-x 1 25dip 197609       0 Jun 25 13:58 Downloads/
+drwxr-xr-x 1 25dip 197609       0 Jun 14 10:08 Favorites/
+-rw-r--r-- 1 25dip 197609   26593 Apr 26 14:31 gate.session
+-rw-r--r-- 1 25dip 197609    5668 Apr 26 14:31 gate.xml
+drwxr-xr-x 1 25dip 197609       0 Dec 31 10:29 gcc/
+drwxr-xr-x 1 25dip 197609       0 Jun 25 10:13 'Google Drive'/
+drwxr-xr-x 1 25dip 197609       0 Apr 15 11:43 Heaven/
+drwxr-xr-x 1 25dip 197609       0 Jun  7 10:14 iCloudDrive/
+drwxr-xr-x 1 25dip 197609       0 Aug  1  2016 InstallAnywhere/
+drwxr-xr-x 1 25dip 197609       0 Jun 25 10:06 IntelGraphicsProfiles/
+-rw-r--r-- 1 25dip 197609       0 Jan 28 18:57 item
+-rw-r--r-- 1 25dip 197609       0 Jan 28 18:57 'item){end'
+drwxr-xr-x 1 25dip 197609       0 Jun 21 23:38 Links/
+lrwxrwxrwx 1 25dip 197609      28 May 29 19:38 'Local Settings' -> /c/Users/25dip/AppData/Local/
+-rw-r--r-- 1 25dip 197609       0 Mar 27 00:19 m
+drwxr-xr-x 1 25dip 197609       0 Jun 14 10:08 Music/
+lrwxrwxrwx 1 25dip 197609      24 May 29 19:38 'My Documents' -> /c/Users/25dip/Documents/
+-rw-r--r-- 1 25dip 197609       0 Jan  8 12:15 n
+lrwxrwxrwx 1 25dip 197609      66 May 29 19:38 NetHood -> '/c/Users/25dip/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 25dip 197609 6029312 Jun 25 01:55 NTUSER.DAT
+-rw-r--r-- 1 25dip 197609 1953792 May 29 19:38 ntuser.dat.LOG1
+-rw-r--r-- 1 25dip 197609 1409024 May 29 19:38 ntuser.dat.LOG2
+-rw-r--r-- 1 25dip 197609 1048576 Jun 25 10:05 NTUSER.DAT{7c46313e-4477-11e7-a325-884523dbce51}.TxR.0.regtrans-ms
+-rw-r--r-- 1 25dip 197609 1048576 Jun 25 10:05 NTUSER.DAT{7c46313e-4477-11e7-a325-884523dbce51}.TxR.1.regtrans-ms
+-rw-r--r-- 1 25dip 197609 1048576 Jun 25 10:05 NTUSER.DAT{7c46313e-4477-11e7-a325-884523dbce51}.TxR.2.regtrans-ms
+-rw-r--r-- 1 25dip 197609   65536 Jun 25 10:05 NTUSER.DAT{7c46313e-4477-11e7-a325-884523dbce51}.TxR.blf
+-rw-r--r-- 1 25dip 197609   65536 Jun 25 01:55 NTUSER.DAT{7c46313f-4477-11e7-a325-884523dbce51}.TM.blf
+-rw-r--r-- 1 25dip 197609  524288 May 29 19:38 NTUSER.DAT{7c46313f-4477-11e7-a325-884523dbce51}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 25dip 197609  524288 Jun 25 01:55 NTUSER.DAT{7c46313f-4477-11e7-a325-884523dbce51}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 25dip 197609      20 May 29 20:04 ntuser.ini
+drwxr-xr-x 1 25dip 197609       0 Jun 25 10:11 OneDrive/
+drwxr-xr-x 1 25dip 197609       0 May 29 20:05 Pictures/
+lrwxrwxrwx 1 25dip 197609      66 May 29 19:38 PrintHood -> '/c/Users/25dip/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 25dip 197609       0 Jun  8 16:21 PycharmProjects/
+lrwxrwxrwx 1 25dip 197609      55 May 29 19:38 Recent -> /c/Users/25dip/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 25dip 197609       0 Jun 30  2016 Roaming/
+drwxr-xr-x 1 25dip 197609       0 Jun 14 10:08 'Saved Games'/
+drwxr-xr-x 1 25dip 197609       0 Jun 25 10:05 ScStore/
+drwxr-xr-x 1 25dip 197609       0 Jun 14 10:08 Searches/
+lrwxrwxrwx 1 25dip 197609      55 May 29 19:38 SendTo -> /c/Users/25dip/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 25dip 197609      59 May 29 19:38 'Start Menu' -> '/c/Users/25dip/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 25dip 197609      58 May 29 19:38 Templates -> /c/Users/25dip/AppData/Roaming/Microsoft/Windows/Templates/
+-rw-r--r-- 1 25dip 197609    2847 Jul 18  2016 Unigine_Heaven_Benchmark_4.0_20160717_2359.html
+-rw-r--r-- 1 25dip 197609    2847 Jul 18  2016 Unigine_Heaven_Benchmark_4.0_20160718_0000.html
+-rw-r--r-- 1 25dip 197609    2865 Feb  9 01:04 Unigine_Heaven_Benchmark_4.0_20170209_0104.html
+-rw-r--r-- 1 25dip 197609    2869 Feb  9 01:58 Unigine_Heaven_Benchmark_4.0_20170209_0158.html
+-rw-r--r-- 1 25dip 197609    2865 Mar  9 21:44 Unigine_Heaven_Benchmark_4.0_20170309_2144.html
+drwxr-xr-x 1 25dip 197609       0 Jun 25 10:07 Videos/
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$ cd C:\Users\25dip\Desktop\Elixir
+bash: cd: C:Users25dipDesktopElixir: No such file or directory
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$ cd C:\Users\25dip\Desktop\Elixir
+bash: cd: C:Users25dipDesktopElixir: No such file or directory
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~
+$ cd ../
+
+25dip@DESKTOP-GIOVL8G MINGW64 /c/Users
+$ cd /25dip
+bash: cd: /25dip: No such file or directory
+
+25dip@DESKTOP-GIOVL8G MINGW64 /c/Users
+$ cd ../
+
+25dip@DESKTOP-GIOVL8G MINGW64 /c
+$ cd ../
+
+25dip@DESKTOP-GIOVL8G MINGW64 /
+$ cd ../
+
+25dip@DESKTOP-GIOVL8G MINGW64 /
+$ cd C:\
+> cd C:
+bash: cd: C:cd: No such file or directory
+
+25dip@DESKTOP-GIOVL8G MINGW64 /
+$ cd C:
+
+25dip@DESKTOP-GIOVL8G MINGW64 /c
+$ cd C:/Users/25dip/Desktop/Elixir
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir
+$ mkdir ashish
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir
+$ git clone https://github.com/Dipesh-Budhiraja/sample.git
+Cloning into 'sample'...
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir
+$ cd /ashish
+bash: cd: /ashish: No such file or directory
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir
+$ ls -l
+total 32
+drwxr-xr-x 1 25dip 197609 0 Jun 25 14:45 ashish/
+drwxr-xr-x 1 25dip 197609 0 Jun 23 22:41 'css3 animations'/
+drwxr-xr-x 1 25dip 197609 0 Jun 25 10:40 frontend/
+drwxr-xr-x 1 25dip 197609 0 May 30 17:30 'Frontend Tips'/
+drwxr-xr-x 1 25dip 197609 0 Jun 25 14:34 git/
+drwxr-xr-x 1 25dip 197609 0 Jun 24 17:13 'netninja js'/
+drwxr-xr-x 1 25dip 197609 0 Jun  8 01:37 ppt/
+drwxr-xr-x 1 25dip 197609 0 Jun 24 23:50 practice/
+drwxr-xr-x 1 25dip 197609 0 Jun 25 14:48 sample/
+drwxr-xr-x 1 25dip 197609 0 Jun 22 23:39 task/
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir
+$ cd sample/
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        sample.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git add sample.html
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git commit -m "Adding sample.html"
+[master 3330246] Adding sample.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sample.html
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Dipesh-Budhiraja/sample.git
+   b49e2a4..3330246  master -> master
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git add sample.html
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   sample.html
+
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git commit -m ""Modified the sample"
+>
+>
+>
+> `dd
+>
+>
+> ^C
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git remote -v
+origin  https://github.com/Dipesh-Budhiraja/sample.git (fetch)
+origin  https://github.com/Dipesh-Budhiraja/sample.git (push)
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git remote add upstream
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git remote -v
+origin  https://github.com/Dipesh-Budhiraja/sample.git (fetch)
+origin  https://github.com/Dipesh-Budhiraja/sample.git (push)
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$ git pull upstream master
+fatal: 'upstream' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+25dip@DESKTOP-GIOVL8G MINGW64 ~/Desktop/Elixir/sample (master)
+$

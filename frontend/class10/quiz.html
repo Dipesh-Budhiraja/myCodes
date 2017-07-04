@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function inner () {
+			this.me = "Satyam";
+		}
+
+		function outer() {
+			console.log(this.me);
+		}
+
+		/*var a = {"inner": inner, "outer": outer};
+
+		a.inner();
+		// outer.call(a);
+		a.outer();*/
+
+		outer.call(inner());//it is used to access variables of other function
+	</script>
+</body>
+</html>

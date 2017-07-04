@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hang</title>
+</head>
+<body>
+	<input type="text" id="test">
+	<button id="get">  </button>
+	<ul id="uli">
+		
+	</ul>
+	<script type="text/javascript">
+		'use strict'// used to prevent overwirting of variables 
+		var x = "hello";
+		var test = document.getElementById('test');
+		var uli = document.getElementById('uli');
+		var button = document.getElementById('get');
+		var inputVal = test.value;
+		var start = Date.now();
+
+		button.onclick = function () {
+			for(var i = 0; i < inputVal; i++) {
+				uli.innerHTML+="<li>"+ i +"</li>";
+			}
+		}		
+		
+		var time = Date.now() - start;
+		console.log(time);
+		console.log(x);
+
+	</script>
+</body>
+</html>

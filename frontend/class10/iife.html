@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iife</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		var x = {};
+		(function(y){
+			var blur = function () {
+				return function() {
+					console.log('blur');
+				}
+			}
+			y.main = blur;
+		})(x);
+
+		console.log(x.main());
+	</script>
+
+</body>
+</html>

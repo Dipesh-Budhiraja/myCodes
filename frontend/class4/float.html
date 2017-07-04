@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>float</title>
+	<style type="text/css">
+		.parent {
+			clear: both;/*to restrict float property*/
+		}
+		.box1 {
+			max-width: 200px;
+			max-height: 200px;
+			background-color: orange;
+			color: aliceblue;
+			text-align: center;
+			width: 33.333%;
+			/*display: inline-block;*/
+			float: left;
+			overflow: auto;
+			clear: both; 
+		}
+
+		.box2 {
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			color: whitesmoke;
+			text-align: center;
+			/*display: inline-block;*/
+			float: right;
+			clear: right;
+		}
+
+		.box3 {
+			height: 10px;
+			max-height: 20px;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="box1"><p>Element 1 dasjkbdasjbdsakjsjkdsjbadajbbsbkjsbakdbabdbsajkdsdkadkjskdjsajkdjksjjskdskjdakjdsbdkjsajkdbsabdj k sbkjdbskjbdkjbasjkdsajkdbsajkdjksadjkbsjkdsjakdjsakdkjsdkjbsjkdbjsbbdjkasbjdkjskabdjkdsakasjkbdasjbdsakj   sjkdsjbadaj b bsbkjsbakdbabdbsajkdsdkadkjsk djsajkdjksjjskdskjdakjdsbdkjs ajkdbsabdjksbkjdbskjbdkjbasjkdsajkd bsajkdjksadjkbsjkdsjakdjsakdkjsd kjbsjkdb jsbbdj kasbj dkjsk a b d jkdsakasjkbdasjbdsakjsjkd  sjbadajcv bbsbkjsbakdbabdbsajkdsdkadkjskdjsajkdjksjjskdskjdakjd sbdkjsajkdbsabdjksbkjdbskjbdkjbasjkdsajkdbsajkdjksadjkbsjkdsjakdjsak dkjsdkjbsjkdbjsbbdjkasbjdkjskabdjkdsak</p></div><!--to remove space that added on while \n 
+		--><div class="box2">Element 2</div>
+		<div class="box3">Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3Element 3</div>
+	</div>
+</body>
+</html>

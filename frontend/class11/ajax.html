@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ajax</title>
+    </head>
+    <body>
+        <div id="print">
+
+        </div>
+        <script type="text/javascript" src="jquery.js">
+
+        </script>
+        <script type="text/javascript">
+        var URL = 'http://loklak.org/api/search.json?timezoneOffset=-330&q=amitabh+bachchan';//task custom input
+        $.ajax({url: URL, success: function(result){
+            // console.log(result.statuses[0].text);
+            // console.log(result.statuses[0].link);
+            // console.log(result.statuses[10].text);
+            console.log(result.statuses[10]);
+
+            // $('#print').html(JSON.stringify(result));
+            for(var i = 0; i < result.statuses.length; ++i){
+                $('#print').append('<img src= ' + result.statuses[i].user.profile_image_url_https + '>'+'<p>' + result.statuses[i].text+'</p>');
+
+            }
+        }});
+        </script>
+    </body>
+</html>

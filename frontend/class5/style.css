@@ -1,0 +1,48 @@
+.parent {
+	display: flex;
+	display: -webkit-flex;/* for safari */
+	flex-wrap: wrap;
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column-reverse;*/
+	justify-content: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+	height: 200px;
+	/*if parent is flex then its child try to adjust within that box*/
+	width: 200px;
+}
+
+.box1 {
+	background-color: aqua;
+	/*width: 40%;*/
+	order: 1;/*default order is 0 */
+	flex-grow: 2;
+}
+
+.box2 {
+	background-color: bisque;
+	/*width: 60%;*/
+	order: 3;
+	flex-grow: 1;
+}
+
+.box3 {
+	background-color: blue;
+	order: 2;
+}
+
+.box4 {
+	background-color: brown;
+	order: 4;
+}
+
+.box5 {
+	background-color: orange;
+	order: 5;
+}
+
+.box6 {
+	background-color: magenta;
+	order: 6;
+}
