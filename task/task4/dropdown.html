@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Dropdown</title>
+	<style type="text/css">
+		ul {
+			list-style: none;
+			padding: none;
+		}
+
+		.dropdown {
+			position: relative;
+			top: 30px;
+			display: inline-block;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			padding: 12px 16px;
+			z-index: 1;
+			
+		}
+
+		.dropdown-content{
+			background-color: #f9f9f9;
+			display: none;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			padding: 12px 16px;
+			z-index: 1;
+			position: absolute;
+			top: 40px;
+		}
+
+		.dropdown:hover .dropdown-content {
+			background-color: #f9f9f9;
+			display: block;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			padding: 12px 16px;
+			z-index: 1;
+			position: absolute;
+		}
+
+		.more-content {
+			background-color: #f9f9f9;
+			display: block;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			padding: 12px 16px;
+			z-index: 1;
+			position: absolute;
+			top: 0px;
+			left: 180px;
+			display: none;
+		}
+
+		.dropdown:hover .dropdown-content:hover .more-content {
+			background-color: #f9f9f9;
+			display: block;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			padding: 12px 16px;
+			z-index: 1;
+			position: absolute;
+			top: 0px;
+			left: 180px;
+			display: block;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="dropdown">
+		<span>Hover over here</span>
+		<div class="dropdown-content">
+			<p>you've hovered</p>
+			<div class="more-content">
+				<p>more content</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

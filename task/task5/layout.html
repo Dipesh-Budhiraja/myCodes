@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animations</title>
+	<style type="text/css">
+		.object {
+			width: 50px;
+			height: 50px;
+			animation-name: myAnim;
+			animation-duration: 4s;
+			background-color: red;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes myAnim {
+			0% {
+				background-color: red;
+				transform: rotate(90deg);
+				border-radius: 0 0 0 0;
+				transform: translate(0px, 0px);
+			}
+
+			25% {
+				background-color: #DE00FF;
+				transform: rotate(90deg);
+				border-radius: 50% 0 0 0;
+				transform: translate(0px, 50px);
+			}
+
+			50% {
+				background-color: #E8E847;
+				transform: rotate(90deg);
+				border-radius: 50% 50% 0 0;
+				transform: translate(50px, 0px);
+			}
+
+			75% {
+				background-color: #5474DB;
+				transform: rotate(90deg);
+				border-radius: 50% 50% 50% 0;
+				transform: translate(50px, 50px);
+			}
+
+			100% {
+				background-color: #714040;
+				transform: rotate(90deg);
+				border-radius: 50% 50% 50% 50%;
+				transform: translate(0px, 0px);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="object">
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Admission Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<style type="text/css">
+/*http://bookkeeper-ronald-78134.bitballoon.com/*/
+	body {
+		margin: 0px;
+		background-color: rgb(215,221,225);
+	}
+	.header {
+		margin-top: -21.438px;
+		position: fixed;
+		width: 100%;
+		background-color: rgb(113,139,165);
+		font-family: 'Raleway', sans-serif;	
+		font-size: 10px;
+		z-index: 1000;
+
+	}
+
+	.header img {
+		width: 130px;
+	}
+
+	.header a {
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: #EFFEFF;
+	}
+	.header ul {
+		padding: 10px 35px;
+		margin: 0;
+	}
+	.header li {
+		list-style: none;
+		display: inline-block;
+	}
+
+	.header span{
+		float: right;
+		padding-top: 15px;
+		padding-right: 70px;
+	}
+	.header span a {
+		margin: 0px 15px;
+	}
+	
+	.midInfo {
+		font-size: 0.8	0em;
+		position: relative;
+		top: 180px;
+		text-align: center;	
+		font-family: 'Raleway', sans-serif;
+		color: rgb(93,96,105);
+	}
+
+	form {
+		width: 52%;
+		height: 1100px;
+		position: relative;
+		left: 26%;
+		top: 250px;
+		/*border: 1px solid black;*/
+		font-family: 'Raleway', sans-serif;
+		clear: both;
+		/*font-family: cursive;*/
+		
+	}
+
+	form .left {
+		width: 45%;
+		float: left;
+	}
+	form .right {
+		width: 45%;
+		float: right;
+		
+	}
+	
+	form .cat1{
+		width: 98%;
+		margin: 10px 0px 10px 0px;
+		padding: 10px 0px 10px 10px;
+		background-color: white;
+		border: none;
+	}
+	form .cat1:focus{
+		width: 98%;
+		margin: 10px 0px 10px 0px;
+		padding: 10px 0px 10px 10px;
+		background-color: rgb(255,247,233);
+		border: none;
+		outline: 3px solid #CCC;
+
+	}
+	/*.form .placeholder {
+		font-family: cursive;
+	}
+*/	
+	form .options {
+
+		font-weight: bold;
+	}
+
+
+	form .cat2 {
+		margin: 10px 0;
+	}
+
+	form .labels {
+		font-weight: bold;
+	}
+
+	form select {
+		width: 100%;
+		padding: 10px 0px 10px 10px;
+		margin-top: 10px;
+		/*font-family: 'Raleway', sans-serif;		*/
+	}
+
+	form select:focus{
+		width: 100%;
+		padding: 10px 0px 10px 10px;
+		margin-top: 10px;
+		outline: 3px solid #ccc;
+		/*font-family: 'Raleway', sans-serif;		*/
+		background-color: rgb(255,247,233);
+	}
+	
+	.left, .right {
+		margin-top: 5px;
+	}
+
+	.left input, .right input{
+		margin-top: 15px;
+	}
+
+	#message {
+		position: relative;	
+		top: 50px;
+		/*left: -355px;*/
+		display: block;
+		width: 98%;
+		max-width: 98%;
+		min-height: 100px;
+		padding: 10px 0 0 10px;
+		font-family: inherit;
+		font-size: 14px;
+		outline: 1px solid #ccc;
+	}
+	
+	.container {
+		position: relative;
+	}
+	#submit {
+		z-index: 999;
+		position: absolute;
+		left: 28%;
+		top: 100px;
+	}	
+
+	input[type="submit"] {
+		width: 344px;
+		height: 45px;
+		border: none;
+		background-color: steelblue;
+		color: white;
+		font-size: 18px;
+		transition: 0.3s;
+	}
+
+	input[type="submit"]:hover {
+		width: 344px;
+		height: 45px;
+		border: none;
+		background-color: white;
+		color: steelblue;
+		font-size: 18px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+
+	/*footer {
+		position: absolute;
+		bottom: 0;
+		background-color: black;
+		width: 100%;
+		height: 100px;
+		color: white;
+	}
+	*/
+</style>
+
+<body>
+	<div class="header">
+		<ul>
+			<li><a href="#"><img src="cblogo.png"></a></li>
+			<span>
+			<li><a href="#">Courses&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+			<li><a href="#">Bootcamps&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+			<li><a href="#">cb edge&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+			<li><a href="#">Bootcamps&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+			<li><a href="#">contact us&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+			</span>
+		</ul>
+	</div>
+	
+	
+
+	<div class="midInfo">
+		<h1>SIGN UP</h1>
+		<h3>Sign up to learn the most important skill of 21st century</h3>
+	</div>
+	
+	<!-- <div class="form"> -->
+	<form action="#" method="post">
+		<input type="text" name="name" placeholder="YOUR NAME" class="cat1"><br>
+		<input type="text" name="phone-number" placeholder="PHONE NUMBER" class="cat1"><br>
+		<input type="email" name="email" placeholder="EMAIL ADDRESS" class="cat1"><br>
+		<input type="text" name="city" placeholder="CITY" class="cat1"><br>
+		<input type="text" name="college" placeholder="COLLEGE/UNIVERSITY/SCHOOL" class="cat1"><br>
+
+		<div class="cat2">
+			Course: &nbsp;</h4><span class="options"><input type="radio" name="course"> B.Tech |<input type="radio" name="course"> M.Tech |<input type="radio" name="course"> B.C.A |<input type="radio" name="course"> M.C.A |<input type="radio" name="course"> Other</span><br><br>
+		</div>
+
+		<div class="cat2">
+		Discipline: &nbsp;</h4><span class="options"><input type="radio" name="discipline"> CS /<input type="radio" name="discipline"> IT /<input type="radio" name="discipline"> SE /<input type="radio" name="discipline"> EE / ECE / EEE<input type="radio" name="discipline">Other</span><br><br>	
+		</div>
+		<section class="cat2">
+			<label for="yrselect" class="labels">Current Education Status :</label><br>
+			<select id="yrselect" name="year">
+        	    <option value="0"> In School </option>
+        	    <option value="1"> 1st Year </option>
+            	<option value="2"> 2nd Year </option>
+            	<option value="3"> 3rd Year </option>
+            	<option value="4"> 4th Year </option>
+            	<option value="5"> 5th Year </option>
+            	<option value="6"> Graduated </option>
+        	</select>
+        </section>
+		<br>
+
+		<section class="cat2">
+	        <label for="pref" class="labels"> Preferred Center : </label> <br>
+	        <select id="prefCenter">
+	        	<option value="dwarka">Dwarka</option>
+	        	<option value="gurgaon">Gurgaon</option>
+	        	<option value="pitampura">Pitampura</option>
+	        	<option value="g_noida">g_noida</option>
+	        </select><br>
+		</section>
+
+		<br>
+        <label class="labels"> Courses Interested In</label><br>
+        <div class="left">
+        	<input type="checkbox" name="desiredCourse"><label>Launchpad (C++ Programming Fundamentals)</label><br>
+        	<input type="checkbox" name="desiredCourse"><label>Crux (Java Programming Fundamentals)</label><br>
+        	<input type="checkbox" name="desiredCourse"><label>Pandora (Android App Development)</label><br>
+        	<input type="checkbox" name="desiredCourse"><label>Elixir (Web Development in Javascript)</label><br>
+        	<input type="checkbox" name="desiredCourse"><label>Algo++ (Advanced DS and Algorithms)</label><br>
+        </div>
+        <div class="right">
+        	<input type="checkbox" name="desiredCourse"><label>Django (Web Development in Python)</label><br>
+        	<input type="checkbox" name="desiredCourse"><label>Perceptron (Machine Learning)</label><br>
+        	<input type="checkbox" name="desiredCourse"><label>Canvas (Game Development)</label><br>
+        	<input type="checkbox" name="desiredCourse"><label>FinalStep (Interview Preparation)</label><br>
+        </div>
+        <textarea name="message" placeholder="MESSAGE" id="message"></textarea>
+		
+		<div class="container">
+		    <input type="submit" id="submit">
+		</div>
+	</form>
+	<!-- </div> -->
+
+	<!-- <footer>
+	
+	</footer> -->
+</body>
+</html>

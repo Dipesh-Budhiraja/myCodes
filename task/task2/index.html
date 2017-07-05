@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style type="text/css">
+/*	font-family: 'Indie Flower', cursive;
+	font-family: 'Bubbler One', sans-serif;*/
+	/*<i class="fa fa-address-book" aria-hidden="true"></i>*/
+	body {
+		background-image: url(bg1.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin: -8px;
+		overflow-x: hidden;
+	}
+
+	.top {
+		width: auto;
+		height: 150px;
+		background-color: rgba(255, 255, 255, 0.4);
+		opacity: 90%;	
+		z-index: 2;
+	}
+
+	div nav ul {
+		list-style: none;
+		margin: 0px;
+	}
+
+	.top a {
+		text-decoration: none;
+		padding: 10px 15px;
+		border: 1px solid #E3EDF2;
+		margin: 5px;
+		color: white;
+	}
+
+	.top li {
+		font-family: 'Bubbler One', sans-serif;
+		font-size: 20px;
+		display: inline-block;
+		/*border: 2px solid black;*/
+		margin-top: 40px;
+		
+	}
+
+	.top span {
+		float: right;
+		padding-right: 40px;
+		padding-top: 20px;
+	}
+
+	/*.top span a:hover{
+		float: right;
+		padding-right: 40px;
+		padding-top: 20px;
+		background-color: #E3EDF2;
+	}*/	
+
+	.top img {
+		border-radius: 50%;
+		height: 70px;
+		margin-left: 70px;
+	} 
+
+	.info #welcome {
+		position: relative;
+		text-align: center;
+		vertical-align: center;
+		font-family: 'Indie Flower', cursive;
+		margin-top: 200px;
+		color: #E3EDF2;
+		text-transform: uppercase;
+		font-size: 30px;
+	}
+
+	.info #work {
+		font-family: 'Indie Flower', cursive;
+		margin-top: 40px;
+		color: #E3EDF2;
+		border: 1px solid #E3EDF2;
+		padding-right: -100px; 
+		position: relative;
+		left: 45%;
+		padding: 6px; 
+		text-decoration: none;
+		/*display: block;*/
+	}
+
+	.bottom {
+		background-color: rgba(255, 255, 255, 0.4);
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		width: auto;
+		height: 50px;	
+	} 
+
+	.bottom i {
+		margin-left: 50px;
+	}
+
+	.bottom a {
+		font-family: 'Bubbler One', sans-serif;	
+		text-decoration: none;
+		color: black;
+		transition: 0.4s;
+	}
+
+	.bottom a:hover {
+		font-family: 'Bubbler One', sans-serif;	
+		text-decoration: none;
+		color: orange;
+		transition: 0.4s;
+		font-size: 20px;
+		/*padding-right: 50px;*/
+	}
+
+	.bottom ul li {
+		display: inline;
+		text-decoration: none;
+		padding-right: 10px;
+		}
+
+	.bottom .toRight {
+		float: right;
+	}
+
+</style>
+
+<body>
+	<div class="top">
+		<nav>
+			<ul>
+				<li><img src="prof-image.jpg"></li>
+				<span>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Education</a></li>
+				<li><a href="#">About me</a></li>
+				<li><a href="#">Contact</a></li>
+				</span>
+			</ul>
+		</nav>
+	</div>
+
+	<section>
+		<div class="info">
+			<h1 id="welcome">Welcome to my new portfolio</h1>
+			<h1><a id="work" href="#">View my Work</a></h1>
+		</div>
+	</section>
+	<footer>
+		<div class="bottom">
+			<ul>
+				<li><i class="fa fa-address-book fa-lg" aria-hidden="true"></i><span id="email">&nbsp;&nbsp;:-<a href="mailto:25dipesh98@gmail.com"> 25dipesh98@gmail.com</a></span></li>
+				<span class="toRight">
+				<li><a href="https://www.facebook.com/dipesh.budhiraja"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.instagram.com/dipesh_budhiraja"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="https://github.com/Dipesh-Budhiraja"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+				</span>	
+			</ul>
+		</div>
+	</footer>		
+</body>
+</html>
